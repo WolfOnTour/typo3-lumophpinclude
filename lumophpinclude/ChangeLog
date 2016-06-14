@@ -1,4 +1,7 @@
 (add new changes on top of this file)
+16-06-14 WolfOnTour
+    * class.tx_lumophpinclude_pi1.php >> if (!class_exists('tslib_pibase')) require_once(PATH_tslib . 'class.tslib_pibase.php');
+    * class.tx_lumophpinclude_pi1_wizicon.php >> $LOCAL_LANG = t3lib_div::readLLfile($llFile, $GLOBALS['LANG']->lang);
 
 08-01-04 Thomas Off <typo3@retiolum.de>
 
