@@ -23,7 +23,7 @@
  */
 
 /* require_once(PATH_tslib.'class.tslib_pibase.php'); */
-if (!class_exists('tslib_pibase')) require_once(PATH_tslib . 'class.tslib_pibase.php');
+if (!class_exists('tslib_pibase')) require_once(PATH_tslib . 'class.tslib_pibase.php'); // Update
 
 require_once(t3lib_extMgm::extPath('lumophpinclude') . 'lib/Snoopy.class.php');
 
